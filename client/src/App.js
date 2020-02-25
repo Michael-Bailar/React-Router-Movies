@@ -6,11 +6,11 @@ import MovieList from "./Movies/MovieList"
 import SavedList from './Movies/SavedList';
 
 const App = () => {
-  const [savedList, setSavedList] = useState( [] );
-
-  const addToSavedList = movie => {
-    setSavedList( [...savedList, movie] );
-  };
+  // const [savedList, setSavedList] = useState( [] );
+  const [savedList] = useState( [] );
+  // const addToSavedList = movie => {
+  //   setSavedList( [...savedList, movie] );
+  // };
 
   return (
     <div>
